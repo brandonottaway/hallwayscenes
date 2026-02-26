@@ -23,6 +23,7 @@ body{
   background: rgba(31,45,38,.75);
   backdrop-filter: blur(10px);
   border-bottom: 1px solid var(--stroke);
+  min-height: 64px;
 }
 .header-inner{
   display:flex; align-items:center; justify-content:space-between;
