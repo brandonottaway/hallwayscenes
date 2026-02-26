@@ -192,6 +192,6 @@ a.card {
 .site-header .brand img.brand-logo {
   width: 120px;      /* try 120–180 */
   height: auto;
-  max-height: 60px;  /* prevents it from getting too tall */
+  max-height: 100px;  /* prevents it from getting too tall */
   display: block;
 }
