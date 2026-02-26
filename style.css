@@ -178,7 +178,7 @@ a.card {
   display: block;   /* ensures full card area is clickable */
 }
 .brand-logo {
-  height: 40px;   /* adjust size as needed */
+  height: 100px;   /* adjust size as needed */
   width: auto;
   display: block;
 }
