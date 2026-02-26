@@ -177,3 +177,13 @@ a.card:focus {
 a.card {
   display: block;   /* ensures full card area is clickable */
 }
+.brand-logo {
+  height: 40px;   /* adjust size as needed */
+  width: auto;
+  display: block;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+}
