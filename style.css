@@ -189,8 +189,9 @@ a.card {
 .brand-logo {
   object-fit: contain;
 }
-.site-header .brand .brand-logo {
-  height: 100px !important;
-  max-height: 100px;
-  width: auto !important;
+.site-header .brand img.brand-logo {
+  width: 140px;      /* try 120–180 */
+  height: auto;
+  max-height: 60px;  /* prevents it from getting too tall */
+  display: block;
 }
