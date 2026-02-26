@@ -1,0 +1,5 @@
+{
+  "redirects": [
+    { "source": "/epk", "destination": "/epk/", "permanent": true }
+  ]
+}
