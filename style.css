@@ -59,8 +59,9 @@ body{
 .hero-title {
   font-family: 'GFS Didot', serif;
   font-weight: 400;
-  letter-spacing: -1px;
-  line-height: 0.95;
+  letter-spacing: -2px;
+  line-height: 0.9;
+  text-transform: uppercase;
 }
 .hero-sub{color:var(--muted); margin:0; max-width:60ch}
 
