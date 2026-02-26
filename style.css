@@ -30,7 +30,7 @@ body{
   padding:6px 0;
 }
 .brand{display:flex; align-items:center; gap:10px; text-decoration:none; color:var(--text)}
-.brand-logo{
+.brand-logo {
   height: 100px;   /* try 40–52 */
   width: auto;
   display: block;
