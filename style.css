@@ -56,7 +56,12 @@ body{
 }
 .hero-inner{display:flex; flex-direction:column; gap:16px}
 .eyebrow{color:var(--muted); letter-spacing:.14em; text-transform:uppercase; font-size:12px}
-.hero-title{font-size:44px; line-height:1.05; margin:0}
+.hero-title {
+  font-family: 'GFS Didot', serif;
+  font-weight: 400;
+  letter-spacing: -1px;
+  line-height: 0.95;
+}
 .hero-sub{color:var(--muted); margin:0; max-width:60ch}
 
 .cta-row{display:flex; gap:12px; flex-wrap:wrap; margin-top:10px}
