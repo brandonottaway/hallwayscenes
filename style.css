@@ -187,3 +187,6 @@ a.card {
   display: flex;
   align-items: center;
 }
+.brand-logo {
+  object-fit: contain;
+}
