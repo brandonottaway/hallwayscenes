@@ -190,7 +190,7 @@ a.card {
   object-fit: contain;
 }
 .site-header .brand img.brand-logo {
-  width: 180px;      /* try 120–180 */
+  width: 120px;      /* try 120–180 */
   height: auto;
   max-height: 60px;  /* prevents it from getting too tall */
   display: block;
