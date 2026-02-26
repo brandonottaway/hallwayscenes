@@ -31,7 +31,7 @@ body{
 }
 .brand{display:flex; align-items:center; gap:10px; text-decoration:none; color:var(--text)}
 .brand-logo{
-  height: 44px;   /* try 40–52 */
+  height: 50px;   /* try 40–52 */
   width: auto;
   display: block;
 }
