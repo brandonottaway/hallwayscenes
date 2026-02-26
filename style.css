@@ -29,13 +29,18 @@ body{
   padding:14px 0;
 }
 .brand{display:flex; align-items:center; gap:10px; text-decoration:none; color:var(--text)}
+
 .brand-mark{
   width:34px; height:34px; display:grid; place-items:center;
   border:1px solid var(--stroke); border-radius:10px;
   font-weight:700; letter-spacing:.5px;
 }
 .brand-name{font-weight:650}
-
+.brand-logo{
+  height: 44px;   /* try 40–52 */
+  width: auto;
+  display: block;
+}
 .nav{display:flex; gap:16px}
 .nav a{color:var(--muted); text-decoration:none; font-weight:550}
 .nav a:hover{color:var(--text)}
