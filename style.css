@@ -206,3 +206,8 @@ a.card {
   border-color: rgba(255,255,255,.6);
   background: rgba(255,255,255,.12);
 }
+
+.link-chip:focus-visible {
+  outline: 2px solid rgba(255,255,255,.5);
+  outline-offset: 3px;
+}
