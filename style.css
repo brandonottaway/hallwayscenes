@@ -211,3 +211,37 @@ a.card {
   outline: 2px solid rgba(255,255,255,.5);
   outline-offset: 3px;
 }
+
+/* Reset + consistent chip styling for <button class="link-chip"> */
+.link-chip{
+  -webkit-appearance: none;
+  appearance: none;
+  border: 1px solid rgba(255,255,255,.28);
+  background: transparent;              /* prevents white fill */
+  color: rgba(255,255,255,.92);         /* ensures readable text */
+  font: inherit;
+  padding: 10px 16px;
+  border-radius: 999px;
+  cursor: pointer;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Remove the “highlight” look */
+.link-chip:focus,
+.link-chip:active{
+  outline: none;
+  box-shadow: none;
+}
+
+/* Optional: keep keyboard accessibility but subtle */
+.link-chip:focus-visible{
+  outline: 2px solid rgba(255,255,255,.35);
+  outline-offset: 3px;
+}
+
+/* Optional: active tab style */
+.link-chip.is-active{
+  background: rgba(255,255,255,.10);
+  border-color: rgba(255,255,255,.55);
+}
