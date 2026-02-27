@@ -245,3 +245,24 @@ a.card {
   background: rgba(255,255,255,.10);
   border-color: rgba(255,255,255,.55);
 }
+.about-right{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.band-photo{
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0,0,0,.35);
+}
+
+.band-photo img{
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
+.band-photo img{
+  filter: contrast(1.05) saturate(.95);
+}
