@@ -266,3 +266,8 @@ a.card {
 .band-photo img{
   filter: contrast(1.05) saturate(.95);
 }
+@media (max-width: 768px){
+  .two-col{
+    flex-direction: column;
+  }
+}
