@@ -202,3 +202,7 @@ a.card {
   max-height: 100px;  /* prevents it from getting too tall */
   display: block;
 }
+.link-chip.is-active {
+  border-color: rgba(255,255,255,.6);
+  background: rgba(255,255,255,.12);
+}
